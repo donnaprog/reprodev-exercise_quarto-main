@@ -56,3 +56,10 @@ mice::boys |>
 
 # Descriptions of the `boys` data
 The `boys` data contains `r nrow(boys)` rows and `r ncol(boys)` columns. In total there are `r sum(is.na(boys))` missing values in the `boys` data, with the highest number of missing values in the `r names(which.max(apply(mice::boys, 2, function(x) sum(is.na(x)))))` column. 
+
+
+# Tutorial 2
+
+![Funny image](https://pics.craiyon.com/2023-10-04/6fabc51063e741dfba609d70a39d04cc.webp)
+
+![](https://i.pinimg.com/originals/87/87/b4/8787b48e6e7f084b71cff1fd11cc5e73.gif)
